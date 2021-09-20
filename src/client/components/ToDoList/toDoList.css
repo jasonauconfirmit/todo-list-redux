@@ -1,0 +1,7 @@
+.toDoList:nth-child(even) {
+  background: #ccc;
+}
+
+.toDoList:nth-child(odd) {
+  background: #ffffff;
+}

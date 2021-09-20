@@ -1,13 +1,17 @@
+import React from "react";
+import ToDoList from "./components/ToDoList";
+import store from "./store";
+import { Provider } from "react-redux";
 import "./styles.css";
-import "./mocks/client";
-import Task from "./Components/task";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <Task />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <h1>To Do List</h1>
+        <h2>See Readme for instructions</h2>
+        <ToDoList />
+      </div>
+    </Provider>
   );
 }

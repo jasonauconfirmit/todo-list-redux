@@ -1,0 +1,34 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  max-width: 40rem;
+}
+
+.task:nth-child(odd) {
+  display: flex;
+  justify-content: space-between;
+  max-width: 40rem;
+  background-color: #ccc;
+}
+
+.task__controls {
+  display: flex;
+}
+
+.task__checkbox {
+  margin-right: 1rem;
+}
+
+.task__title {
+  font-weight: bolder;
+}
+
+.task__title--complete {
+  text-decoration: line-through;
+}
+
+.task__description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

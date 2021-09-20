@@ -1,0 +1,9 @@
+.addTask {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.addTask__label {
+  margin-right: 0.5rem;
+}
